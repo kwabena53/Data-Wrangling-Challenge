@@ -1,0 +1,72 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "data",
+      "path": "data package/output.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default",
+            "title": "Country"
+          },
+          {
+            "name": "Area ",
+            "type": "number",
+            "format": "default",
+            "title": "Area "
+          },
+          {
+            "name": "GDP per capita",
+            "type": "string",
+            "format": "default",
+            "title": "GDP per capita"
+          },
+          {
+            "name": "Population density",
+            "type": "string",
+            "format": "default",
+            "title": "Population density"
+          },
+          {
+            "name": "Vehicle ownership (per thousand inhabitants)",
+            "type": "string",
+            "format": "default",
+            "title": "Vehicle ownership (per thousand inhabitants)"
+          },
+          {
+            "name": "Total Road Deaths",
+            "type": "string",
+            "format": "default",
+            "title": "Total Road Deaths"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants",
+            "type": "string",
+            "format": "default",
+            "title": "Road deaths per Million Inhabitants"
+          },
+          {
+            "name": "field8",
+            "type": "string",
+            "format": "default",
+            "title": "year"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "kwabena-EU-road-rafety-data",
+  "title": "European Union Road Safety Facts and Figures",
+  "description": "This dataset is a normalised dataset of European Union Road Safety Fact and Figures from Wikipedia",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Kwabena Adu-Darkwa",
+      "role": "author"
+    }
+  ]
+}
